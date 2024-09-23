@@ -1,6 +1,6 @@
 {
     "@context":"https://www.w3.org/ns/solid/oidc-context.jsonld",
-    "client_id":"https://acoburn.github.io/testapp.json",
+    "client_id":"https://acoburn.github.io/solid-clients/testapp.json",
     "client_name":"Solid Test Application",
     "client_uri":"http://localhost:8080/",
     "grant_types":["authorization_code"],
