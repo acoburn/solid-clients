@@ -1,0 +1,14 @@
+{
+    "@context":"https://www.w3.org/ns/solid/oidc-context.jsonld",
+    "client_id":"https://acoburn.github.io/testapp.json",
+    "client_name":"Solid Test Application",
+    "client_uri":"http://localhost:8080/",
+    "grant_types":["authorization_code"],
+    "redirect_uris":[
+        "http://localhost:8080/callback",
+        "http://localhost:8080/profile/callback"
+    ],
+    "post_logout_redirect_uris":["http://localhost:8080/"],
+    "response_types":["code"],
+    "scope":"openid webid"
+}
