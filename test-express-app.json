@@ -9,5 +9,5 @@
     ],
     "post_logout_redirect_uris":["http://localhost:3010/api-mobile/profile"],
     "response_types":["code"],
-    "scope":"openid webid"
+    "scope":"openid webid offline_access"
 }
