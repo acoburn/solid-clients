@@ -1,9 +1,9 @@
 {
     "@context":"https://www.w3.org/ns/solid/oidc-context.jsonld",
-    "client_id":"https://acoburn.github.io/solid-clients/test-mobile-app.json",
+    "client_id":"https://acoburn.github.io/solid-clients/test-mobile.json",
     "client_name":"Solid Test Application",
     "client_uri":"http://localhost:3010/api-mobile/",
-    "grant_types":["authorization_code"],
+    "grant_types":["authorization_code", "refresh_token"],
     "redirect_uris":[
         "http://localhost:3010/api-mobile/login/callback"
     ],
